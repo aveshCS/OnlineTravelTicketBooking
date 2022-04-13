@@ -69,17 +69,17 @@
     transform: scale(1.2);
     
     }
-.settings{
+#settings{
     margin: 14px;
     padding: 2px;
 }
-.settings img{
+#settings img{
     filter: invert(1);
     height: 35px;
     width: 35px;
     transition: all 0.3s;
 }
-.settings img:hover{
+#settings img:hover{
     color: white;
     cursor: pointer;
     transform: rotate(90deg) scale(1.2);
