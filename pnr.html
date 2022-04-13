@@ -29,9 +29,9 @@
     </nav>
     <section id="container">
         <h1><img src="/navbar/train-ticket.png" alt="">Search Your PNR details here: </h1>
-        <div class=""><form action="searchPnr.php">
+        <div class=""><form action="">
             <input class="box-pnr" type="text" placeholder="Enter Your PNR here">
-            <input class="submit-btn-pnr" type="submit" value="Search" class="contact-btn">
+            <input class="submit-btn-pnr" onclick="trainPnrSearch()" type="submit" value="Search" class="contact-btn">
         </form></div>
         
     </section>
@@ -52,7 +52,7 @@
                     <footer id="Contact-Us">
                         <h1>Contact Us</h1>
                         <div class="contact-details">
-                            <form action="Contact.php">
+                            <form action="">
                 <div><label for="name">
                     Name:<input type="text" name="name" placeholder="Enter Your Name Here">
                 </label>
@@ -68,10 +68,11 @@
                     </label>
                 </div>
                 <div class="div-contact-btn">
-                    <input type="submit" class="contact-btn" value="Submit">
+                    <input type="submit" onclick="messageReceived()" class="contact-btn" value="Submit">
                 </div>
             </form>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

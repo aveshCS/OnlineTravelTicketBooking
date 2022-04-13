@@ -28,7 +28,7 @@
     </nav>
     <section id="container">
         <h1><img src="/img/plane logo.png" alt="">Search My Flight</h1>
-        <form action="SearchFlight.php">
+        <form action="">
         <div class="container-element">
             <div class="box">From <input type="text" placeholder="From"></div>
             <div class="box">To <input type="text" placeholder="To"></div>
@@ -40,7 +40,7 @@
                     </div>
             <div class="box">Date <input type="date"></div>
             <div>
-                <input type="submit" class="btn submit" value="SEARCH">
+                <input type="submit" onclick="flightTicketBooked()" class="btn submit" value="SEARCH">
             </div>
         </form>
     </section>
@@ -56,7 +56,7 @@
     <footer id="Contact-Us">
         <h1>Contact Us</h1>
         <div class="contact-details">
-            <form action="Contact.php">
+            <form action="">
                 <div><label for="name">
                     Name:<input type="text" name="name" placeholder="Enter Your Name Here">
                 </label>
@@ -72,11 +72,12 @@
                     </label>
                 </div>
                 <div class="div-contact-btn">
-                    <input type="submit" class="contact-btn" value="Submit">
+                    <input type="submit" onclick="messageReceived()" class="contact-btn" value="Submit">
                 </div>
             </form>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

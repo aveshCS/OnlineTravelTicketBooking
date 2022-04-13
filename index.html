@@ -29,13 +29,13 @@
     </nav>
     <section id="container">
         <h1><img src="/img/train-station.png" alt="">Search Your Train</h1>
-        <form action="SearchTrain.php">
+        <form action="">
             <div class="container-element">
                 <div class="box">From <input type="text" placeholder="From"></div>
                 <div class="box">To <input type="text" placeholder="To"></div>
                 <div class="box">Date <input type="date"></div>
                 <div>
-                    <input type="submit" class="submit btn" name="search" id="" value="SEARCH">
+                    <input type="submit" id="trainSearchButton" onclick="booked()" class="submit btn" name="search" id="" value="SEARCH">
                 </div>
             </div>
         </form>
@@ -57,7 +57,7 @@
                     <footer id="Contact-Us">
                         <h1>Contact Us</h1>
                         <div class="contact-details">
-                            <form action="Contact.php">
+                            <form action="">
                 <div><label for="name">
                     Name:<input type="text" name="name" placeholder="Enter Your Name Here">
                 </label>
@@ -73,10 +73,11 @@
                     </label>
                 </div>
                 <div class="div-contact-btn">
-                    <input type="submit" class="contact-btn" value="Submit">
+                    <input type="submit" onclick="messageReceived()" class="contact-btn" value="Submit">
                 </div>
             </form>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
