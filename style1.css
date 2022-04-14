@@ -25,11 +25,11 @@
 }
 
 .logo{
-    margin: 11px 33px;
+    margin: 15px 25px;
     padding: 0px 4px;
 }
 .logo img{
-    height: 57px;
+    height: 47px;
     /* width: 76px; */
     
     filter: invert(100%);
