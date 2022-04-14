@@ -15,7 +15,7 @@ function booked() {
         alert('We have mailed you the cheapest train ticket fares for the opted route')
       let deal = prompt('Please enter 1 to book you the best deal of all of them')
       if(deal==1){
-          alert('We have booked your ticket! Enjoy your Journey :)');
+          alert('Your Ticket has been booked! Thank You for choosing us: Enjoy your Journey :)');
       }else{
           alert('Thankyou for giving your time');
           exit;
@@ -27,7 +27,7 @@ function booked() {
             alert('We have mailed you the cheapest train ticket fares for the opted route')
       let deal = prompt('Please enter 1 to book you the best deal of all of them')
       if(deal==1){
-          alert('We have booked your ticket! Enjoy your Journey :)');
+          alert('Your Ticket has been booked! Thank You for choosing us: Enjoy your Journey :)');
       }else{
           alert('Thankyou for giving your time');
           exit;
@@ -54,7 +54,7 @@ function flightTicketBooked() {
         alert('We have mailed you the cheapest flight ticket fares for the opted route')
       let deal = prompt('Please enter 1 to book you the best deal of all of them')
       if(deal==1){
-          alert('Your Ticket has been booked! Enjoy your Journey :)');
+          alert('Your Ticket has been booked! Thank You for choosing us: Enjoy your Journey :)');
       }else{
           alert('Thankyou for giving your time');
           exit;
