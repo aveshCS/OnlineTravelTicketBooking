@@ -278,7 +278,7 @@ z-index: -1;
 
 #Contact-Us{
     /* border: 2px solid red; */
-    height: 622px;
+    height: 533px;
     width: 100%;
 }
 #Contact-Us::before{
@@ -286,14 +286,14 @@ z-index: -1;
     background: url('img/Contact-Us.webp') no-repeat center center/cover;
     
     position: absolute;
-    height: 622px;
+    height: 533px;
     width: 100%;
     z-index: -1;
 }
 #Contact-Us h1{
     /* border: 2px solid blue; */
     width: 342px;
-    padding: 20px 0px;
+    padding: 2px 0px;
     font-size: 4rem; 
     font-family: cursive;
     display: block;
@@ -307,12 +307,12 @@ z-index: -1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 74%;
-    width: 42%;
+    height: 420px;
+    width: 32%;
     font-size: 1.5rem;
     color: white;
     font-family: cursive;
-    margin: 5px 0px 6px 44px;
+    margin: -8px 0px 6px 44px;
     z-index: 1;
     transition: all 0.2s;
     background-color: #2196f3;
@@ -340,21 +340,21 @@ z-index: -1;
     
 }
 .contact-details label{
-    margin: 15px 10px;
+    margin: 15px 17px;
     color: white;
     font-weight: bolder;
     
 }
 .contact-details label div{
-    margin: -9px 0px 0px 10px;
+    margin: -24px 0px 0px 14px;
     
 }
 .contact-details textarea{
     /* display: flex; */
     text-align:left;
-height: 200px;
+height: 181px;
 width: 70%;
-margin: 13px 0px 0px 82px;
+margin: 13px 0px 0px 81px;
 font-size: 1.2rem;
 border-radius:4px;
 /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
@@ -368,7 +368,7 @@ transition: all 0.2s;
 .contact-details .div-contact-btn{
     display: block;
     width: 143px;
-    margin: -24px auto 3px auto;
+    margin: -24px auto 3px 187px;
 }
 .contact-details .contact-btn{
     width: 94px;
