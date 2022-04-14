@@ -70,7 +70,7 @@ function flightTicketBooked() {
       }else{
           alert('Thankyou for giving your time');
           exit;
-      },
+      }
         }
     }
 }
