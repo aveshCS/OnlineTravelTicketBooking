@@ -1,13 +1,4 @@
-// let heading=document.getElementById("containerHeading");
-// heading.innerHTML="Search Your PNR here";
-// let trainSearchButton=document.getElementById("trainSearchButton");
-//nav bar
-// let settingLogo = document.getElementsById('settingslogo')
-// settingLogo.addEventListener
-// let settingLogo = document.getElementById('settingslogo')
-// settingLogo.addEventListener('mouseover', function run(){
-//     alert('This wheel is under construction')
-// })
+
 //Train Ticket booking
 function booked() {
     let email = prompt('Please enter your Email address')
